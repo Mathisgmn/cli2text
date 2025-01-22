@@ -81,7 +81,7 @@ async function outputFile(tree) {
 
 //console.log(await processTree("./cli2text_specifications/src"));
 // console.log(`File and folder tree for : ${tree.name}`)
-outputPrint(await processTree("./cli2text_specifications/src"));
+outputPrint(await processTree("./"));
 
 
 
